@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Keerthana</h1>
+            <h3>And I'm a <span class="input">Frontend Developer</span></h3>
+            <p>I'm a passionate and detail-oriented front-end developer with a strong foundation in web technologies. 
+                I thrive on transforming creative ideas into interactive and user-friendly web experiences.
+                Proficient in HTML, CSS, and JavaScript, with a deep understanding of their capabilities and best practices.
+                Experienced in building web applications using modern front-end frameworks like React, which allows for efficient and maintainable code.
+                Skilled in creating responsive designs that adapt seamlessly to various screen sizes and devices, ensuring a consistent user experience.    
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/keerthana-varma-1a6833242/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/keeruvarma"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a  class="btn" href="#">Download CV</a>
+        </div>
+        
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am an experienced front-end developer with a strong command of HTML, CSS, and JavaScript.
+               Proficient in utilizing Git and GitHub, I effectively manage version control and collaborate
+               with team members to ensure seamless code integration. With a keen eye for detail and a passion
+               for creating visually appealing and user-friendly interfaces, I strive to deliver exceptional web
+               experiences. Continuously learning and adapting to emerging trends, I am dedicated to staying at the
+               forefront of front-end development practices.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <h2 class="heading">My <span>Blog</span></h2>
+        <div class="blog-container">
+            <div class="blog-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML5</h3>
+                <p>To know the details of tags present in HTML5 and the features of Html5 </p>
+                <a href="https://www.w3schools.com/tags/" class="btn">Read More</a>
+            </div>
+            <div class="blog-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>CSS3</h3>
+                <p>To know how to make the sheets style and the features of Css3 </p>
+                <a href="https://www.w3schools.com/css/" class="btn">Read More</a>
+            </div>
+            <div class="blog-box">
+                <i class='bx bxl-bootstrap' ></i>
+                <h3>Bootstrap</h3>
+                <p>To know the details of scroll of images and the features of bootstrap </p>
+                <a href="https://getbootstrap.com/docs/5.0/components/scrollspy/" class="btn">Read More</a>
+            </div>
+            <div class="blog-box">
+                <i class='bx bxl-javascript' ></i>
+                <h3>JavaScript</h3>
+                <p>To know the details of loops and the features of Es6 </p>
+                <a href="https://www.w3schools.com/js/js_es6.asp" class="btn">Read More</a>
+            </div>
+            <div class="blog-box">
+                <i class='bx bxl-react' ></i>
+                <h3>React</h3>
+                <p>To know the details of React framework and features of ReactJS </p>
+                <a href="https://www.javatpoint.com/reactjs-tutorial" class="btn">Read More</a>
+            </div>
+            <div class="blog-box">
+                <i class='bx bxl-redux' ></i>
+                <h3>Redux</h3>
+                <p>To know the details of Redux and how can we use it in react  </p>
+                <a href="https://www.javatpoint.com/react-redux" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by keerthana | All Rights Reserved. </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
